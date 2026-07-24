@@ -38,31 +38,20 @@
       <div class="research-content">
         <h2>Dish Forecasting with Set-Based Neural Networks</h2>
         <p class="project-summary">
-          Predicting the demand for one dish requires understanding the other
-          dishes offered at the same time. The menu is therefore naturally
-          modeled as a set rather than a fixed vector or an independent time series.
+          Forecasting demand for a dish requires considering the other dishes available on the same menu. Since menus vary across dates and locations, they are naturally represented as unordered sets rather than fixed-size vectors or independent time series.
         </p>
 
         <div class="research-details">
           <div>
             <h3>Problem</h3>
             <p>
-              Estimate dish-level choice rates for changing menus across
-              multiple restaurant sites and dates.
+              Predict dish-level choice rates for changing menus across multiple restaurant sites and dates.
             </p>
           </div>
           <div>
             <h3>Approach</h3>
             <p>
-              Compare simple baselines with permutation-invariant architectures,
-              including DeepSets and attention-based set encoders.
-            </p>
-          </div>
-          <div>
-            <h3>Evaluation</h3>
-            <p>
-              Analyze MAE, RMSE, WAPE, and calibration at dish, menu, date, and
-              restaurant levels.
+              Compare simple baselines with permutation-invariant neural architectures, including DeepSets and attention-based models.
             </p>
           </div>
         </div>
@@ -75,62 +64,57 @@
         </div>
 
         <div class="project-links">
-          <a href="https://github.com/YOUR_USERNAME/YOUR_REPOSITORY" target="_blank" rel="noreferrer">
+          <!-- <a href="https://github.com/YOUR_USERNAME/YOUR_REPOSITORY" target="_blank" rel="noreferrer">
             Code repository ↗
-          </a>
-          <a href="#" aria-disabled="true">Paper draft — coming soon</a>
+          </a> -->
+          <a href="#" aria-disabled="true">Research paper in preparation</a>
         </div>
       </div>
     </section>
 
-    <section class="cards-section">
-      <div class="section-heading">
-        <p class="section-label">RESEARCH DIRECTIONS</p>
-        <h2>Questions I want to explore</h2>
+    <section class="research-project">
+      <div class="research-meta">
+        <p class="section-label"> Study Research project</p>
+        <p>2026</p>
       </div>
-      <div class="cards two-columns">
-        <article class="card">
-          <span class="card-index">01</span>
-          <h3>Learning over sets</h3>
-          <p>
-            How should neural networks represent interactions between elements
-            when order is irrelevant but context matters?
-          </p>
-        </article>
-        <article class="card">
-          <span class="card-index">02</span>
-          <h3>Sequential decision-making</h3>
-          <p>
-            How can reinforcement learning improve reasoning, adaptation, and
-            post-training in large models?
-          </p>
-        </article>
-        <article class="card">
-          <span class="card-index">03</span>
-          <h3>Robust forecasting</h3>
-          <p>
-            How can models remain useful under sparse observations, changing
-            menus, and noisy operational data?
-          </p>
-        </article>
-        <article class="card">
-          <span class="card-index">04</span>
-          <h3>Evaluation in the real world</h3>
-          <p>
-            Which metrics best connect predictive performance to concrete
-            operational decisions?
-          </p>
-        </article>
-      </div>
-    </section>
-
-    <section class="publication-section">
-      <p class="section-label">PUBLICATIONS & WRITING</p>
-      <div class="empty-state">
-        <h2>Work in progress.</h2>
-        <p>
-          Research notes, paper drafts, and future publications will appear here.
+      <div class="research-content">
+        <h2>Hidden Markov Models for Volatility Regime Detection</h2>
+        <p class="project-summary">
+          Financial time series often alternate between periods of stability and periods of high uncertainty. This project studies Hidden Markov Models as a probabilistic framework for identifying latent market regimes and modelling changes in volatility over time.
         </p>
+
+        <div class="research-details">
+          <div>
+            <h3>Problem</h3>
+            <p>
+              Identify hidden volatility regimes in financial time series and analyse how market dynamics evolve between calm and stressed periods.
+            </p>
+          </div>
+          <div>
+            <h3>Approach</h3>
+            <p>
+              Implement and study the main HMM algorithms, including Forward for likelihood computation, Viterbi for state decoding, and Baum–Welch for parameter estimation.
+            </p>
+          </div>
+        </div>
+
+        <div class="tag-row">
+          <span>Hidden Markov Models</span>
+          <span>Time Series</span>
+          <span>Probabilistic Modelling</span>
+          <span>Python</span>
+        </div>
+
+        <div class="project-links">
+          <!-- <a href="https://github.com/YOUR_USERNAME/YOUR_REPOSITORY" target="_blank" rel="noreferrer">
+            Code repository ↗
+          </a> -->
+          <a href="assets/TER.pdf"
+            target="_blank"
+            rel="noopener noreferrer">
+            Read the full report ↗
+          </a>
+        </div>
       </div>
     </section>
   </main>
