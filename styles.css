@@ -628,4 +628,15 @@ code {
   .portrait-card {
     justify-self: start;
   }
+
+  .profile-picture {
+  display: block;
+}
+
+/* Hide the picture on phones */
+@media (max-width: 765px) {
+  .profile-picture {
+    display: none;
+  }
+}
 }
